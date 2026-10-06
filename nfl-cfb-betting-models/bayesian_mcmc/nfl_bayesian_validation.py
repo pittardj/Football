@@ -23,12 +23,7 @@ stable year over year: every season from 2015-2025 falls in a believable
 53.8%-71.1% range, including the most recent one. That stability is
 itself evidence this is a more trustworthy signal than the legacy tiers.
 
-ONE CALIBRATION NOTE: `Sum of PM Edge %` for each logic code turns out to
-exactly equal that code's own realized win rate (e.g. code 1 is priced at
-59.7% and also realized 59.7%). That means this "edge" field looks like
-it was set FROM the backtest result rather than being an independent
-prediction validated against it.
-"""
+
 
 import numpy as np
 import pymc as pm
