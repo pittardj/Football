@@ -5,7 +5,7 @@ missing: `Pick Result`, `Recommended_Side`, `Recommended_Logic_Code`.
 `Pick Result` (Win / Loss / Push / Pending / No Bet (Late)) is the direct,
 authoritative outcome field -- no more reconstructing wins from
 spread_result + a side comparison. Aggregated across 2015-2026 it gives
-294 Win / 189 Loss, exactly matching Jeb's Power BI dashboard (483 total
+294 Win / 189 Loss, exactly matching Power BI dashboard (483 total
 picks, 61% ATS win rate) -- confirmed season-by-season, including the
 partial 2026 season (3-2 so far, 17 games still pending).
 
@@ -48,7 +48,7 @@ labels = [b["label"] for b in buckets]
 n_arr = np.array([b["n"] for b in buckets])
 wins_arr = np.array([b["wins"] for b in buckets])
 
-print("=== Verified against Jeb's dashboard: 294 Win / 189 Loss / 483 total, "
+print("=== Verified against dashboard: 294 Win / 189 Loss / 483 total, "
       f"{WINS_TOTAL/N_TOTAL:.1%} ATS win rate ===\n")
 print("=== Per-logic-code breakdown (all three qualify on the AWAY side) ===")
 for b in buckets:
