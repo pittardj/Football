@@ -27,10 +27,7 @@ ONE CALIBRATION NOTE: `Sum of PM Edge %` for each logic code turns out to
 exactly equal that code's own realized win rate (e.g. code 1 is priced at
 59.7% and also realized 59.7%). That means this "edge" field looks like
 it was set FROM the backtest result rather than being an independent
-prediction validated against it -- worth Jeb double-checking on his own,
-since it's a subtly different (and much more common) issue than outright
-leakage: a descriptive backtest statistic being reused as if it were a
-forward-looking predicted probability.
+prediction validated against it.
 """
 
 import numpy as np
