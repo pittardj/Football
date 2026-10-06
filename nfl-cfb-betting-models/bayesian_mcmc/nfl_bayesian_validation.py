@@ -22,7 +22,7 @@ consistent with backtest leakage), this Pick Result-based record is
 stable year over year: every season from 2015-2025 falls in a believable
 53.8%-71.1% range, including the most recent one. That stability is
 itself evidence this is a more trustworthy signal than the legacy tiers.
-
+"""
 
 
 import numpy as np
