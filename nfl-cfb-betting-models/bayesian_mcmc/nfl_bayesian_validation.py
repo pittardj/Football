@@ -1,7 +1,4 @@
 """
-Rebuilt from the corrected export, which restores columns v1/v2 were
-missing: `Pick Result`, `Recommended_Side`, `Recommended_Logic_Code`.
-
 `Pick Result` (Win / Loss / Push / Pending / No Bet (Late)) is the direct,
 authoritative outcome field -- no more reconstructing wins from
 spread_result + a side comparison. Aggregated across 2015-2026 it gives
