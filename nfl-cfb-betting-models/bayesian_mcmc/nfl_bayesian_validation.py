@@ -1,5 +1,5 @@
 """
-v3 -- rebuilt from the corrected export, which restores columns v1/v2 were
+Rebuilt from the corrected export, which restores columns v1/v2 were
 missing: `Pick Result`, `Recommended_Side`, `Recommended_Logic_Code`.
 
 `Pick Result` (Win / Loss / Push / Pending / No Bet (Late)) is the direct,
